@@ -1,0 +1,69 @@
+video {
+  margin-top: 5em;
+  border-radius: 15px;
+}
+
+.qr-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.symptom-pill {
+  padding: 10px;
+  margin: 5px;
+  border: solid 2px #0AA2C0;
+  background: none !important;
+  font-size: .9em;
+  color: #0AA2C0 !important;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.selected {
+  background: #087990 !important;
+  color: white !important;
+  border: solid 2px #087990;
+}
+
+.datalist-wrapper{
+  position: relative;
+}
+
+.datalist {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: solid 1px #dbdbdb;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.datalist-item {
+  list-style: none;
+  padding: .2em 2em;
+  border-bottom: solid 1px #dbdbdb;
+  background: #fff;
+}
+
+.datalist-item:hover {
+  background: #dcdcdc;
+}
+.docter-done{
+  position: fixed !important;
+  bottom: 1.3em;
+  right: 1.3em;
+  font-size: 2.5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.prescribe-symptom-tab{
+  overflow-y: hidden;
+  overflow-x: auto;
+}
